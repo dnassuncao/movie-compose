@@ -1,6 +1,6 @@
-package br.com.dnassuncao.movieapp.data.remote.response
+package br.com.dnassuncao.movieapp.core.data.remote.response
 
-import br.com.dnassuncao.movieapp.data.remote.model.MovieResult
+import br.com.dnassuncao.movieapp.core.data.remote.model.MovieResult
 import com.google.gson.annotations.SerializedName
 
 data class MovieResponse(

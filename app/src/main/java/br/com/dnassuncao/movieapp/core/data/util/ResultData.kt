@@ -1,4 +1,4 @@
-package br.com.dnassuncao.movieapp.data.util
+package br.com.dnassuncao.movieapp.core.data.util
 
 import java.lang.Exception
 

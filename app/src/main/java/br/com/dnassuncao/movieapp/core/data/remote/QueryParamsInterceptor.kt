@@ -1,7 +1,7 @@
-package br.com.dnassuncao.movieapp.data.remote
+package br.com.dnassuncao.movieapp.core.data.remote
 
 import br.com.dnassuncao.movieapp.BuildConfig
-import br.com.dnassuncao.movieapp.data.util.Constants
+import br.com.dnassuncao.movieapp.core.data.util.Constants
 import okhttp3.Interceptor
 import okhttp3.Response
 

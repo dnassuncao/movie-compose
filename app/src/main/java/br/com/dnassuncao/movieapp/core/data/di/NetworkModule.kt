@@ -1,8 +1,8 @@
-package br.com.dnassuncao.movieapp.data.di
+package br.com.dnassuncao.movieapp.core.data.di
 
 import br.com.dnassuncao.movieapp.BuildConfig
-import br.com.dnassuncao.movieapp.data.remote.MovieService
-import br.com.dnassuncao.movieapp.data.remote.QueryParamsInterceptor
+import br.com.dnassuncao.movieapp.core.data.remote.MovieService
+import br.com.dnassuncao.movieapp.core.data.remote.QueryParamsInterceptor
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
