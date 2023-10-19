@@ -1,4 +1,4 @@
-package br.com.dnassuncao.movieapp.core.util
+package br.com.dnassuncao.movieapp.data.util
 
 object Constants {
 

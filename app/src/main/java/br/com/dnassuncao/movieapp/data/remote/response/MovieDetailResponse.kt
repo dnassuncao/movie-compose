@@ -1,9 +1,9 @@
-package br.com.dnassuncao.movieapp.core.remote.response
+package br.com.dnassuncao.movieapp.data.remote.response
 
-import br.com.dnassuncao.movieapp.core.remote.model.GenresItem
-import br.com.dnassuncao.movieapp.core.remote.model.ProductionCompaniesItem
-import br.com.dnassuncao.movieapp.core.remote.model.ProductionCountriesItem
-import br.com.dnassuncao.movieapp.core.remote.model.SpokenLanguagesItem
+import br.com.dnassuncao.movieapp.data.remote.model.GenresItem
+import br.com.dnassuncao.movieapp.data.remote.model.ProductionCompaniesItem
+import br.com.dnassuncao.movieapp.data.remote.model.ProductionCountriesItem
+import br.com.dnassuncao.movieapp.data.remote.model.SpokenLanguagesItem
 import com.google.gson.annotations.SerializedName
 
 data class MovieDetailResponse(
