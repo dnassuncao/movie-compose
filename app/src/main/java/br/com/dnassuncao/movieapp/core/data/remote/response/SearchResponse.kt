@@ -9,7 +9,7 @@ data class SearchResponse(
     @SerializedName("total_pages")
     val totalPages: Int = 0,
     @SerializedName("results")
-    val results: List<SearchResult>?,
+    val results: List<SearchResult>,
     @SerializedName("total_results")
     val totalResults: Int = 0
 )

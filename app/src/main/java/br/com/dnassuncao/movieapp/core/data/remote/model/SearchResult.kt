@@ -12,7 +12,7 @@ data class SearchResult(
     @SerializedName("video")
     val video: Boolean = false,
     @SerializedName("title")
-    val title: String = "",
+    val title: String? = "",
     @SerializedName("genre_ids")
     val genreIds: List<Integer>?,
     @SerializedName("poster_path")

@@ -19,13 +19,13 @@ object MoviePopularFeatureModule {
 
     @Provides
     @Singleton
-    fun provideMovieDataSource(service: MovieService): MoviePopularRemoteDataSource {
+    fun provideMoviePopularRemoteDataSource(service: MovieService): MoviePopularRemoteDataSource {
         return MoviePopularRemoteDataSourceImpl(service)
     }
 
     @Provides
     @Singleton
-    fun provideMovieRepository(dataSource: MoviePopularRemoteDataSource): MoviePopularRepository {
+    fun provideMoviePopularRepository(dataSource: MoviePopularRemoteDataSource): MoviePopularRepository {
         return MoviePopularRepositoryImpl(dataSource)
     }
 

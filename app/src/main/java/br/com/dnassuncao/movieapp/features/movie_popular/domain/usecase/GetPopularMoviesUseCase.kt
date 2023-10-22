@@ -18,7 +18,6 @@ class GetPopularMoviesUseCaseImpl @Inject constructor(
         return repository.getPopularMovies(
             PagingConfig(
                 pageSize = 20,
-                enablePlaceholders = true,
                 initialLoadSize = 20,
             )
         )
