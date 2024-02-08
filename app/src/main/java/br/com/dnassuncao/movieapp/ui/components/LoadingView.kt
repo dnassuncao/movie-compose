@@ -1,4 +1,4 @@
-package br.com.dnassuncao.movieapp.core.presentation.components
+package br.com.dnassuncao.movieapp.ui.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row

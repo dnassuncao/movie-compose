@@ -1,4 +1,4 @@
-package br.com.dnassuncao.movieapp.core.presentation.navigation
+package br.com.dnassuncao.movieapp.navigation
 
 import androidx.compose.material.BottomNavigation
 import androidx.compose.material.BottomNavigationItem

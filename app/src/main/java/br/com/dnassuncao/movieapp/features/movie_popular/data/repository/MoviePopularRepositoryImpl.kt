@@ -3,7 +3,7 @@ package br.com.dnassuncao.movieapp.features.movie_popular.data.repository
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
-import br.com.dnassuncao.movieapp.core.domain.model.Movie
+import br.com.dnassuncao.movieapp.features.movie_popular.domain.Movie
 import br.com.dnassuncao.movieapp.features.movie_popular.domain.repository.MoviePopularRepository
 import br.com.dnassuncao.movieapp.features.movie_popular.domain.source.MoviePopularRemoteDataSource
 import kotlinx.coroutines.flow.Flow

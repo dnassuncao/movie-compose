@@ -1,4 +1,4 @@
-package br.com.dnassuncao.movieapp.core.presentation
+package br.com.dnassuncao.movieapp
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.Box
@@ -7,8 +7,8 @@ import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
-import br.com.dnassuncao.movieapp.core.presentation.navigation.BottomNavigationBar
-import br.com.dnassuncao.movieapp.core.presentation.navigation.NavigationGraph
+import br.com.dnassuncao.movieapp.navigation.BottomNavigationBar
+import br.com.dnassuncao.movieapp.navigation.NavigationGraph
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable

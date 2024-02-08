@@ -1,7 +1,7 @@
 package br.com.dnassuncao.movieapp.features.movie_popular.presentation
 
 import androidx.paging.PagingData
-import br.com.dnassuncao.movieapp.core.domain.model.Movie
+import br.com.dnassuncao.movieapp.features.movie_popular.domain.Movie
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.emptyFlow
 

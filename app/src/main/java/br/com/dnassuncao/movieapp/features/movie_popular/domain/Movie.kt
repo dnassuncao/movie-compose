@@ -1,4 +1,4 @@
-package br.com.dnassuncao.movieapp.core.domain.model
+package br.com.dnassuncao.movieapp.features.movie_popular.domain
 
 data class Movie(
     val id: Int,

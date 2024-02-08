@@ -1,9 +1,9 @@
-package br.com.dnassuncao.movieapp.core.presentation.navigation
+package br.com.dnassuncao.movieapp.navigation
 
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -21,7 +21,7 @@ fun NavigationGraph(navController: NavHostController) {
         composable(BottomNavItem.MoviePopular.route) {
 
             val viewModel: MoviePopularViewModel = hiltViewModel()
-            val uiState = viewModel.uiState.collectAsState().value
+            val uiState = viewModel.uiState.collectAsStateWithLifecycle().value
 
             MoviePopularScreen(
                 uiState = uiState,
@@ -31,7 +31,7 @@ fun NavigationGraph(navController: NavHostController) {
         composable(BottomNavItem.MovieSearch.route) {
 
             val viewModel: MovieSearchViewModel = hiltViewModel()
-            val uiState = viewModel.uiState.collectAsState().value
+            val uiState = viewModel.uiState.collectAsStateWithLifecycle().value
 
             MovieSearchScreen(
                 uiState = uiState,

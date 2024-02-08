@@ -1,8 +1,8 @@
 package br.com.dnassuncao.movieapp.core.data.remote
 
-import br.com.dnassuncao.movieapp.core.data.remote.response.MovieDetailResponse
-import br.com.dnassuncao.movieapp.core.data.remote.response.MovieResponse
-import br.com.dnassuncao.movieapp.core.data.remote.response.SearchResponse
+import br.com.dnassuncao.movieapp.features.movie_detail.data.model.MovieDetailResponse
+import br.com.dnassuncao.movieapp.features.movie_popular.data.model.MovieResponse
+import br.com.dnassuncao.movieapp.features.search_movie.data.model.SearchResponse
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

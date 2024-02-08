@@ -1,15 +1,14 @@
-package br.com.dnassuncao.movieapp.core.data.remote.response
+package br.com.dnassuncao.movieapp.features.search_movie.data.model
 
-import br.com.dnassuncao.movieapp.core.data.remote.model.MovieResult
 import com.google.gson.annotations.SerializedName
 
-data class MovieResponse(
+data class SearchResponse(
     @SerializedName("page")
     val page: Int = 0,
     @SerializedName("total_pages")
     val totalPages: Int = 0,
     @SerializedName("results")
-    val results: List<MovieResult>,
+    val results: List<SearchResult>,
     @SerializedName("total_results")
     val totalResults: Int = 0
 )

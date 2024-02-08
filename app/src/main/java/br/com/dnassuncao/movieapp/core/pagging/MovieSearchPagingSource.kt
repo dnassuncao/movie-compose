@@ -2,9 +2,7 @@ package br.com.dnassuncao.movieapp.core.pagging
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import br.com.dnassuncao.movieapp.core.domain.model.Movie
-import br.com.dnassuncao.movieapp.core.domain.model.MovieSearch
-import br.com.dnassuncao.movieapp.features.movie_popular.data.mapper.toMovies
+import br.com.dnassuncao.movieapp.features.search_movie.domain.MovieSearch
 import br.com.dnassuncao.movieapp.features.search_movie.data.mapper.toMoviesSearch
 import br.com.dnassuncao.movieapp.features.search_movie.domain.source.MovieSearchRemoteDataSource
 import retrofit2.HttpException

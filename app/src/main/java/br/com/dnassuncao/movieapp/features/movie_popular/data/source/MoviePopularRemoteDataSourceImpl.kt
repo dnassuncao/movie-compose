@@ -1,7 +1,7 @@
 package br.com.dnassuncao.movieapp.features.movie_popular.data.source
 
 import br.com.dnassuncao.movieapp.core.data.remote.MovieService
-import br.com.dnassuncao.movieapp.core.data.remote.response.MovieResponse
+import br.com.dnassuncao.movieapp.features.movie_popular.data.model.MovieResponse
 import br.com.dnassuncao.movieapp.core.pagging.MoviePagingSource
 import br.com.dnassuncao.movieapp.features.movie_popular.domain.source.MoviePopularRemoteDataSource
 import javax.inject.Inject

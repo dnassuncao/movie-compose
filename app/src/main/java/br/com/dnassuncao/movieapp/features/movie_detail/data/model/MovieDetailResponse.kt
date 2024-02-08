@@ -1,9 +1,5 @@
-package br.com.dnassuncao.movieapp.core.data.remote.response
+package br.com.dnassuncao.movieapp.features.movie_detail.data.model
 
-import br.com.dnassuncao.movieapp.core.data.remote.model.GenresItem
-import br.com.dnassuncao.movieapp.core.data.remote.model.ProductionCompaniesItem
-import br.com.dnassuncao.movieapp.core.data.remote.model.ProductionCountriesItem
-import br.com.dnassuncao.movieapp.core.data.remote.model.SpokenLanguagesItem
 import com.google.gson.annotations.SerializedName
 
 data class MovieDetailResponse(
@@ -20,7 +16,7 @@ data class MovieDetailResponse(
     @SerializedName("revenue")
     val revenue: Long = 0,
     @SerializedName("genres")
-    val genres: List<GenresItem>?,
+    val genres: List<GenresItem>,
     @SerializedName("popularity")
     val popularity: Double = 0.0,
     @SerializedName("production_countries")

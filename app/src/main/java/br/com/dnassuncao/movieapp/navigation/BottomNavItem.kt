@@ -1,10 +1,12 @@
-package br.com.dnassuncao.movieapp.core.presentation.navigation
+package br.com.dnassuncao.movieapp.navigation
 
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Details
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Movie
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.ui.graphics.vector.ImageVector
+import br.com.dnassuncao.movieapp.core.data.util.Constants.MOVIE_DETAIL_ARGUMENT_KEY
 
 sealed class BottomNavItem(
     val title: String,
@@ -28,4 +30,5 @@ sealed class BottomNavItem(
         icon = Icons.Default.Favorite,
         route = "movie_favorite_screen"
     )
+
 }

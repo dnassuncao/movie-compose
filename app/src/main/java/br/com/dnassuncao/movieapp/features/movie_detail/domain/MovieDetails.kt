@@ -1,6 +1,6 @@
-package br.com.dnassuncao.movieapp.core.domain.model
+package br.com.dnassuncao.movieapp.features.movie_detail.domain
 
-data class MovieDetail(
+data class MovieDetails(
     val id: Int,
     val title: String,
     val genres: List<String>,

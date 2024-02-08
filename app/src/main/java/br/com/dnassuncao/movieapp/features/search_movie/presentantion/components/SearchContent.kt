@@ -21,9 +21,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
-import br.com.dnassuncao.movieapp.core.domain.model.MovieSearch
-import br.com.dnassuncao.movieapp.core.presentation.components.ErrorScreen
-import br.com.dnassuncao.movieapp.core.presentation.components.LoadingView
+import br.com.dnassuncao.movieapp.features.search_movie.domain.MovieSearch
+import br.com.dnassuncao.movieapp.ui.components.ErrorScreen
+import br.com.dnassuncao.movieapp.ui.components.LoadingView
 import br.com.dnassuncao.movieapp.features.movie_popular.presentation.components.MovieItem
 import br.com.dnassuncao.movieapp.features.search_movie.presentantion.MovieSearchEvent
 import br.com.dnassuncao.movieapp.ui.theme.black

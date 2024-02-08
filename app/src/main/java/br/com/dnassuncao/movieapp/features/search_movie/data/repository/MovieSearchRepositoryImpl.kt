@@ -3,7 +3,7 @@ package br.com.dnassuncao.movieapp.features.search_movie.data.repository
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
-import br.com.dnassuncao.movieapp.core.domain.model.MovieSearch
+import br.com.dnassuncao.movieapp.features.search_movie.domain.MovieSearch
 import br.com.dnassuncao.movieapp.features.search_movie.domain.repository.MovieSearchRepository
 import br.com.dnassuncao.movieapp.features.search_movie.domain.source.MovieSearchRemoteDataSource
 import kotlinx.coroutines.flow.Flow

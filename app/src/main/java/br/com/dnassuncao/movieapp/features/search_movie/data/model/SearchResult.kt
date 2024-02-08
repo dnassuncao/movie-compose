@@ -1,4 +1,4 @@
-package br.com.dnassuncao.movieapp.core.data.remote.model
+package br.com.dnassuncao.movieapp.features.search_movie.data.model
 
 import com.google.gson.annotations.SerializedName
 

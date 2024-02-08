@@ -1,6 +1,7 @@
 buildscript {
     ext {
-        compose_ui_version = '1.4.0'
+        compose_ui_version = '1.6.1'
+        mockk_version = '1.13.9'
     }
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
