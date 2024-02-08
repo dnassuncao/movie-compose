@@ -53,7 +53,7 @@ fun SearchContent(
                 isLoading = true
                 onSearch(it)
             },
-            onQueryChangeEvent = {
+            onSearchChangeEvent = {
                 onEvent(it)
             },
             modifier = Modifier

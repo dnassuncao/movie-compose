@@ -28,12 +28,12 @@ fun SearchComponent(
     modifier: Modifier = Modifier,
     query: String,
     onSearch: (String) -> Unit,
-    onQueryChangeEvent: (MovieSearchEvent) -> Unit
+    onSearchChangeEvent: (MovieSearchEvent) -> Unit
 ) {
     OutlinedTextField(
         value = query,
         onValueChange = {
-            onQueryChangeEvent(MovieSearchEvent.EnteredQuery(it))
+            onSearchChangeEvent(MovieSearchEvent.EnteredQuery(it))
         },
         trailingIcon = {
             IconButton(
@@ -75,11 +75,11 @@ fun SearchComponent(
 
 @Preview
 @Composable
-fun SearchComponentePreview() {
+fun SearchComponentPreview() {
     SearchComponent(
         modifier = Modifier,
         query = "",
         onSearch = {},
-        onQueryChangeEvent = {}
+        onSearchChangeEvent = {}
     )
 }
